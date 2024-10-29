@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/AlertObject/Page_W3Schools Tryit E
 
 AlertText = WebUI.getAlertText()
 
-println('Alert text is:' + AlertText)
+system.out.println('Alert text is:' + AlertText)
 
 WebUI.verifyAlertPresent(0)
 
